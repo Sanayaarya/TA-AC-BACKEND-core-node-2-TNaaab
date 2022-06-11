@@ -1,6 +1,6 @@
 var path = require('path');
+console.log(__dirname, __filename)
 
-var relativePath = './form.html'
-var absolutePath = _dirname;
+
 var formPath = path.join(_dirname, 'form.html')
-console.log(formPath,relativePath)
+console.log(serverPath)
