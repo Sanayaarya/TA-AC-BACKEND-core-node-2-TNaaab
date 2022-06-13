@@ -9,7 +9,7 @@ function handleServer(req, res) {
   req.on('end', () => {
     res.write(store);
     res.end();
-  });
+  })
 }
 server.listen(3456, () => {
   console.log('server listening in port 3456');
