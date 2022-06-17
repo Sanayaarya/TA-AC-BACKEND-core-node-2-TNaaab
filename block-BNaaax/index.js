@@ -3,4 +3,4 @@ console.log(__dirname, __filename)
 
 
 var formPath = path.join(_dirname, 'form.html')
-console.log(serverPath)
+console.log(serverPath);
