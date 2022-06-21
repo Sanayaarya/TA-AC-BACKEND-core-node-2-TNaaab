@@ -4,7 +4,7 @@ var qs = require('querystring');
 
 var server = http.createServer(handleSever);
 function handleSever(req, res) {
-  // var dataFormat = req.headers['content-type'];
+  
   var store = '';
   req.on('data', (chunk) => {
     store += chunk;
